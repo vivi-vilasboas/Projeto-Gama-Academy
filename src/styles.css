@@ -1,0 +1,509 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    line-height: 1;
+}
+
+.home-page {
+    background: white url('img/background.png') top right no-repeat;
+    background-size: 60%;
+}
+
+.thanks {
+    background: white url('img/background_pagina_thank_you.png') bottom right no-repeat;
+    background-size: 60%;
+}
+
+.foto {
+    width: 600px;
+    margin: 26% -290px;
+    z-index: 1;
+}
+
+.background2 {
+    width: 800px;
+}
+
+.row {
+    position: relative;
+    width: 100%;
+    float: left;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+/* Container Form */
+.col-a {
+    width: 40%;
+}
+
+.content-form {
+    width: 400px;
+    margin: 100px 0 0 35%;
+}
+
+.titulo-obrigado,
+.content-form h1 {
+    width: 100%;
+    font-weight: bold;
+    font-size: 50px;
+    letter-spacing: 1px;
+    line-height: 68px;
+    font-family: 'Open Sans', Tahoma, Arial, Helvetica, sans-serif;
+}
+
+.content-form h1 {
+    color: #010c38;
+}
+
+.content-form p { 
+    color: #8a97d3;
+    font-style: 20px;
+    text-align: left;
+    font-family: 'Open Sans', Tahoma, Arial, Helvetica, sans-serif;
+    text-shadow: 0 0 1px #8a97d3;
+    line-height: 20px;
+    margin-top: 20px;
+}
+
+.logo {
+    width: 80%;
+    margin-bottom: 80px;
+    float: left;
+}
+
+.content-form form { 
+    width: 100%;
+    margin-top: 40px;
+}
+
+.link_download,
+.content-form form button {
+    width: 100%;
+    border-radius: 500px;
+    border: 0;
+    background: #0029FA;
+    font-weight: bold;
+    font-family: 'Open Sans', Tahoma, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-align: center;
+    line-height: 40px;
+    height: 45px;
+    color: white;
+    cursor: pointer;
+    transition: all .2s ease;
+    border: 2px solid transparent;
+}
+
+#botao_planilha {
+    width: 100%;
+    border-radius: 500px;
+    border: 0;
+    background: #0029FA;
+    font-weight: bold;
+    font-family: 'Open Sans', Tahoma, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-align: center;
+    line-height: 40px;
+    height: 45px;
+    color: white;
+    cursor: pointer;
+    transition: all .2s ease;
+    border: 2px solid transparent;
+}
+
+
+.link_download:hover,
+.content-form form button:hover {
+    background: white;
+    color:  #8a97d3;
+    border: 2px solid #8a97d3;
+}
+
+.input {
+    border: 2px solid #8a97d3;
+    padding: 15px;
+    height: 45px;
+    line-height: 45px;
+    color: gray;
+    font-size: 18px;
+    width: 100%;
+    border-radius: 500px;
+    margin-bottom: 15px;
+}
+
+.txt-icon-container {
+    margin-bottom: 20px;
+}
+
+.icon-desc {
+    width: 15%;
+}
+
+.icon-desc img {
+    width: 90%;
+    margin: 10px 10% 0 0;
+}
+
+.txt-desc {
+    font-size: 19px;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    text-align: left;
+    color: #222;
+    padding: 0 20px 25px;
+    width: 85%;
+}
+
+
+/* Container Celular */
+.col-b {
+    width: 60%;
+}
+
+.celular {
+    position: relative;
+    width: 50%;
+    margin: 100px 0 0 15%;
+}
+
+.background-mobile {
+    display: none;
+}
+
+.titulo-obrigado {
+    color: #8a97d3;
+    letter-spacing: 8px;
+    font-size: 53px;
+    margin-left: 105px;
+}
+
+.homem { 
+    width: 80%;
+    margin: 150px 0 0 0;
+    position: relative;
+    float: right;
+}
+
+.descricao {
+    background: url('img/background2.png') left bottom no-repeat;
+    background-size: 40%;
+    min-height: 800px;
+    width: 100%;
+    padding: 100px 0 100px;
+    float: left;
+    position: relative;
+}
+
+.descricao footer {
+    margin-bottom: 50px;
+}
+
+.logo-descricao {
+    width: 50%;
+    margin-left: 25%;
+}
+
+.content-descricao {
+    width: 40%;
+    min-width: 400px;
+    margin: 100px 0 100px 16%;
+}
+
+.desc-title {
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin: 35px 0 35px;
+    font-size: 24px;
+    color: #222;
+    font-style: italic;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    word-spacing: 5px;
+    letter-spacing: 1px;
+}
+
+.desc {
+    margin-top: 30px;
+}
+
+/* THANKS PAGE */
+.thanks {
+    width: 100%;
+    display: block;
+    justify-content: unset;
+}
+
+header,
+footer, 
+section {
+    width: 100%;
+}
+
+.thanks section,
+.thanks video {
+    width: 50%;
+    float: left;
+    position: relative;
+}
+
+.thanks header {
+    background: #F1A430;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.logo-thanks {
+    height: 60px;
+    margin-top: 10px;
+}
+
+.carro {
+    width: 70%;
+    right: 5%;
+    top: 350px;
+    position: absolute;
+}
+
+.descricao footer {
+    text-align: center;
+    font-size: 18px;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 30px;
+}
+
+.thanks footer {
+    text-align: center;
+    font-size: 18px;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    width: 100%; 
+    margin: 50px 0 30px;
+    position: absolute;
+    bottom: 30px;
+}
+
+.thanks-content {
+    width: 350px;
+    margin: 100px 0 0 15%;
+}
+
+.thanks-content a {
+    width: 550px;
+    border-radius: 100px;
+    border: 0;
+    background: #0029FA;
+    font-weight: bold;
+    font-family: 'Open Sans', Tahoma, Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    text-align: center;
+    line-height: 70px;
+    height: 80px;
+    letter-spacing: 5px;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    transition: all .2s ease;
+    border: 2px solid transparent;
+    float: left;
+    margin-top: 90px;
+}
+
+.thanks-content a:hover {
+    background: white;
+    color: #0029FA;
+    border: 2px solid #0029FA;
+}
+
+.video {
+    float: left;
+    width: 50%;
+    height: 580px;
+}
+
+/* THANKS PAGE */
+
+.desktop {
+    display: block;
+}
+
+.mobile {
+    display: none;
+}
+
+/* Media Queries - Responsivo */
+@media screen and (max-width: 1024px) {
+    body {
+        display: block;
+        justify-content: unset;
+        background: white;
+        background-size: 100%;
+    }
+
+    .home-page {
+        background-image: unset;
+    }
+
+    .logo {
+        width: 60%;
+        margin-bottom: 50px;
+        float: left;
+    }
+
+    .col-a,
+    .col-b {
+        width: 100%;
+        position: relative;
+    }
+
+    .content-form {
+        width: 80%;
+        margin: 50px 10% 0;
+    }
+
+    .content-form h1 {
+        font-size: 30px;
+        letter-spacing: 0px;
+        line-height: 50px;
+    }
+
+    .celular {
+        position: relative;
+        width: 80%;
+        margin: 50px 10% 0;
+        z-index: 1;
+        margin-bottom: 40px
+    }
+
+    .background-mobile {
+        display: block;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 100%;
+        z-index: 0;
+        transform: rotate(180deg);
+    }
+
+    .descricao {
+        background: url(img/background2.png) left bottom no-repeat;
+        background-size: 80%;
+        min-height: unset;
+        width: 100%;
+        padding: 30px 0 50px;
+    }
+
+    .content-descricao {
+        width: 90%;
+        min-width: unset;
+        margin: 50px 5% 20px 5%;
+    }
+
+    .desc {
+        width: 60%;
+        margin: 20px 20% 20px 20%;
+    }
+        
+    .homem { 
+        width: 80%;
+        margin: 70px 10%;
+    }
+  
+    .desktop {
+        display: none;
+    }
+
+    .mobile {
+        display: block;
+    }
+
+    .thanks section,
+    .thanks video {
+        width: 100%;
+        float: left;
+        position: relative;
+    }
+
+    .titulo-obrigado {
+        font-size: 50px;
+        margin-left: 0;
+    }
+    
+
+    .thanks-content {
+        width: 100%;
+        margin: 100px 0px 0 0;
+        float: left;
+        position: relative;
+        text-align: center;
+    }
+
+    .thanks footer {
+        position: relative;
+        float: left;
+    }
+
+    .carro {
+        float: left;
+        margin: 70px 15% 50px;
+        position: relative;
+        width: 70%;
+        right: unset;
+        top: unset;
+    }
+
+    .video {
+        width: 100%;
+        height: 580px;
+    }
+
+    .thanks {
+        background: unset;
+    }
+
+    
+.thanks-content a {
+    width: 90%;
+    margin: 90px 5% 30px;
+}
+
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+    .content-form {
+        width: 70%;
+        margin: 50px 15% 0;
+    }
+
+    .content-form h1 {
+        font-size: 50px;
+        line-height: 55px;
+    }
+
+    .celular {
+        position: relative;
+        width: 70%;
+        margin: 50px 15% 0;
+        z-index: 1;
+        margin-bottom: 40px
+    }
+    
+}   
